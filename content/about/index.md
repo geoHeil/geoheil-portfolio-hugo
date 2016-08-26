@@ -1,16 +1,12 @@
 +++
-date = "2015-07-23"
+date = "2016-08-26"
 title = "About"
-featureimage = "img/sample_feature_img_3.png"
+featureimage = "img/header.jpg"
 menu = "nav"
 +++
 
-### Lorem ipsum
+### Hi I'm
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae quisquam iste tempore libero illum maxime voluptates incidunt! Eius odio voluptatem totam ipsam, consectetur corrupti cupiditate veritatis quae minus eum rem excepturi, dolore vel recusandae assumenda tempora. Quas, ut necessitatibus impedit.
+a grad student passionate about data analytics, dancing and photography.
 
-### Dolor faubicus
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius cum sit dolores. Pariatur at incidunt nobis ratione unde deleniti similique explicabo quae, repudiandae velit consequatur optio expedita natus, ullam vel.
-
-\- Your name
+\- Georg Heiler

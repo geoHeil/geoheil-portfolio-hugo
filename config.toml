@@ -1,7 +1,6 @@
-baseurl = "https://geoheil.github.io"
-#baseurl = "https://geoheil.github.io/geoheil"
+baseurl = "https://geoheil.github.io/"
 languageCode = "en-us"
-title = "Type theme"
+title = "geoHeil"
 theme = "hugo-type-theme"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "geoheil"
@@ -12,41 +11,41 @@ paginate = 3
 
 
 [params]
-	author = "Georg Heiler"
+	author = "geoHeil"
 	description = "Add a description of your website"
 	# The keywords will be added as a meta tag. Delimit them with a comma.
-	keywords = ""
+	keywords = "data science, forecasting, big data, spark, scala"
 	# Either show custom avatar on the top
 	# left by adding the filename in below
 	avatar = "img/avatar.png"
 	# or use Gravatar by adding your email address to generate a unique avatar
-	gravatar = "your@email.com"
+	gravatar = "georg.kf.heiler@gmail.com"
 
-	headerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>Remove all header text in **config.toml** to disable this feature."
+	headerText = "data science | needn't be rocket science.<br><br>a grad student's blog about data analytics and related topics."
 	# To add a header background to the main site, save your image under static/img/.
 	# If now image path is provided, a orange background will be shown instead.
 	headerImage = ""
-	copyright = "Released under the MIT license<br>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)"
+	copyright = "[geoHeil](//github.com/geoHeil) <br>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)"
 
 
 	[params.social]
 		# Insert your accout name and the icon will be shown in the right menu
-		rss = true
-		homepage = true
-		email = "hello@example.com"
+		rss = false
+		homepage = false
+		email = "georg.kf.heiler@gmail.com"
 		behance = ""
 		bitbucket  =""
 		dribbble = ""
 		facebook = ""
 		flickr = ""
-		github = "digitalcraftsman/hugo-type-theme"
+		github = "geoheil"
 		googleplus = ""
 		instagram = ""
-		linkedin = ""
+		linkedin = "https://at.linkedin.com/in/georg-heiler-019b3767"
 		pinterest = ""
 		reddit = ""
 		soundcloud = ""
-		stackexchange = ""
+		stackexchange = "http://stackexchange.com/users/1706292/"
 		steam = ""
 		tumblr = ""
 		twitter = ""
