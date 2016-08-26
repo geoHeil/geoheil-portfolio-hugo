@@ -9,3 +9,5 @@ Exploring static site generators I stumbled upon hugo. This is the result of giv
 I will publish some data science related articles on this blog.
 
 To start out I will introduce you to awesome slideshows generated with jupyter notebook.
+
+To view the raw notebook click here: [notebook](//github.com/geoHeil/jupyterStuff/blob/master/01-notebook/exampleSlides.ipynb) to see the final presentation use this link: [presentation](//TODO).
