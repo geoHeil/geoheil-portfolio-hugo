@@ -1,53 +1,101 @@
 baseurl = "https://geoheil.github.io/"
 languageCode = "en-us"
 title = "geoHeil"
-theme = "hugo-type-theme"
-# Enable comments by entering your Disqus shortname
-disqusShortname = "geoheil"
-# Add your tracking code to enable Google Analytics
-googleAnalytics = "UA-83207234-1"
-# Posts per page
-paginate = 3
-
+theme = "hugo-creative-theme"
 
 [params]
-	author = "geoHeil"
-	description = "Add a description of your website"
-	# The keywords will be added as a meta tag. Delimit them with a comma.
-	keywords = "data science, forecasting, big data, spark, scala"
-	# Either show custom avatar on the top
-	# left by adding the filename in below
-	avatar = "img/avatar.png"
-	# or use Gravatar by adding your email address to generate a unique avatar
-	gravatar = "georg.kf.heiler@gmail.com"
 
-	headerText = "data science | doesn't need to be rocket science.<br><br>a grad student's blog about data analytics and related topics."
-	# To add a header background to the main site, save your image under static/img/.
-	# If now image path is provided, a orange background will be shown instead.
-	headerImage = ""
-	copyright = "[geoHeil](//github.com/geoHeil) <br>Powered by [Hugo](//gohugo.io/) with the [Type Theme](//github.com/digitalcraftsman/hugo-type-theme)"
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Georg Heiler"
+	description = "tech portfolio about data science, big data"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
 
 
-	[params.social]
-		# Insert your accout name and the icon will be shown in the right menu
-		rss = false
-		homepage = false
+	# Navigation
+	[params.navigation]
+		brand = "Georg Heiler"
+
+		[params.navigation.links]
+			about     = "About"
+			#services  = "Services"
+			#portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "data science is fun"
+		subtitle   = "[Georg](//at.linkedin.com/in/georg-heiler-019b3767) is a grad student from vienna passionate about data science, photography, dancing."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Without data you're just another person with an opinion - Edwards Deming"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Sturdy Templates"
+            description = "Our templates are updated regularly so they don't break."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Ready to Ship"
+			description = "You can use this theme as is, or you can make changes!"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Up to Date"
+            description = "We update dependencies to keep things fresh."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Made with Love"
+            description = "You have to make your websites with love these days!"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get the Creative Theme for Hugo"
+
+		[params.aside.button]
+			text = "Download now"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Have an interesting project? That's great! Get in touch!"
+		#phone = "123-456-6789"
+		stackexchange = "http://stackexchange.com/users/1706292/geoHeil"
 		email = "georg.kf.heiler@gmail.com"
-		behance = ""
-		bitbucket  =""
-		dribbble = ""
-		facebook = ""
-		flickr = ""
-		github = "geoheil"
-		googleplus = ""
-		instagram = ""
-		linkedin = "https://at.linkedin.com/in/georg-heiler-019b3767"
-		pinterest = ""
-		reddit = ""
-		soundcloud = ""
-		stackexchange = "http://stackexchange.com/users/1706292/"
-		steam = ""
-		tumblr = ""
-		twitter = ""
-		wordpress = ""
-		youtube = ""
